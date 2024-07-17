@@ -1,7 +1,5 @@
 import { v4 as uuid } from 'uuid'
 
-let posts = []
-
 async function createPost(req, res) {
 	try {
 		const postInfo = await req.body

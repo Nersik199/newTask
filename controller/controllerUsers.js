@@ -1,5 +1,12 @@
 import { v4 as uuid } from 'uuid'
-let users = []
+let users = [
+	{
+		id: '1',
+		fName: 'John',
+		lName: 'Doe',
+		email: 'nCpWt@example.com',
+	},
+]
 
 async function getSingleUsers(req, res) {
 	try {
